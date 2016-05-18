@@ -14,6 +14,8 @@ function createPerson(name, age, job) {
 
 var person1 = createPerson('Nicholas', 29, 'Software Enginner');
 var person2 = createPerson('Smallg', 30, 'FEE');
+person1.sayName();
+person2.sayName();
 
 // Method 2
 function Person(name, age, job){
@@ -27,6 +29,8 @@ function Person(name, age, job){
 
 var person3 = new Person('Nicholas', 29, 'Software Enginner');
 var person4 = new Person('Smallg', 30, 'FEE');
+person3.sayName();
+person4.sayName();
 
 // Prototype mode
 function Person2(){
